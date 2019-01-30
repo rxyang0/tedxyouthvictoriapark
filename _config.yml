@@ -1,0 +1,47 @@
+url: https://tedxyouthvictoriapark.ca
+baseurl: 
+
+# Site settings
+title: TEDxYouth@VictoriaPark
+email: 
+description: "An independently organized TED event"
+
+collections:
+    - speakers
+
+# Team names, titles and social links
+people:
+    - name: Stanton Thai
+      pic: 1
+      position: Organizer
+      social:
+        - title: facebook
+          url: #
+    - name: Jasmine El-Hacha
+      pic: 2
+      position: Co-organizer
+      social:
+        - title: facebook
+          url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+    - title: facebook
+      url: https://www.facebook.com/tedxyouthvictoriapark
+    - title: instagram
+      url: 
+    - title: twitter
+      url: 
+
+# Postal address (add as many lines as necessary)
+address:
+    - line: 
+    - line: 
+    - line: 
+    - line: 
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+compress_html:
+    comments: all
