@@ -1,4 +1,4 @@
-url: https://tedxyouthvictoriapark.ca
+url: https://tedxyouthvictoriapark.tk
 baseurl: 
 
 # Site settings
@@ -41,6 +41,7 @@ address:
     - line: 
 
 # Build settings
+host: 0.0.0.0
 markdown: kramdown
 permalink: pretty
 compress_html:
