@@ -6,7 +6,7 @@ $(function() {
 			$('html, body').stop();
 		});
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top-75
+            scrollTop: $($anchor.attr('href')).offset().top-60
         }, 600, 'easeInOutCubic');
         event.preventDefault();
     });
