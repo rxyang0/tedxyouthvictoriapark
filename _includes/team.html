@@ -11,10 +11,9 @@
 			{% for member in site.team %}
 			<div class="col-sm-4">
 				<div class="team-member">
-				<a href="#team{{ member.modal-id }}" class="portfolio-link" data-toggle="modal">
-					<img src="images/team/{{ member.img }}.jpg" class="img-responsive img-circle" alt="">
-				</a>
-					<h4>{{ member.name }}</h4>
+					<a href="#team{{ member.modal-id }}" class="portfolio-link" data-toggle="modal" style="color: #000;">
+						<h4>{{ member.name }}</h4>
+					</a>
 					<p class="text-muted">{{ member.position }}</p>
 					<ul class="list-inline social-buttons">
 						{% for network in member.social %}
