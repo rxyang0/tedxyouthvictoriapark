@@ -2,7 +2,7 @@
 name: Stanton Thai
 position: Organizer
 layout: default
-modal-id: 1
+modal-id: stanton
 img: 1
 thumbnail: dreams-thumbnail.png
 alt: image-alt

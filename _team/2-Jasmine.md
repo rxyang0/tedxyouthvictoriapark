@@ -2,7 +2,7 @@
 name: Jasmine El-Hacha
 position: Co-organizer
 layout: default
-modal-id: 2
+modal-id: jasmine
 img: 2
 thumbnail: dreams-thumbnail.png
 alt: image-alt

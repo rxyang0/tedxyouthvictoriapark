@@ -8,10 +8,11 @@
 			</div>
 		</div>
 		<div class="row">
-			{% for member in site.team %}
+			{% assign sorted_members = site.team | sort:"img" %}
+			{% for member in sorted_members %}
 			<div class="col-sm-4">
 				<div class="team-member">
-					<a href="#team{{ member.modal-id }}" class="portfolio-link" data-toggle="modal" style="color: #000;">
+					<a href="#{{ member.modal-id }}" class="portfolio-link" data-toggle="modal" style="color: #000;">
 						<h4>{{ member.name }}</h4>
 					</a>
 					<p class="text-muted">{{ member.position }}</p>
