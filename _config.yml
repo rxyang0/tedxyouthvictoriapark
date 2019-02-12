@@ -10,21 +10,6 @@ collections:
     - speakers
     - team
 
-# Team names, titles and social links
-people:
-    - name: Stanton Thai
-      img: 1
-      position: Organizer
-      social:
-        - title: linkedin
-          url: https://www.ted.com/profiles/9924759
-    - name: Jasmine El-Hacha
-      img: 2
-      position: Co-organizer
-      social:
-        - title: linkedin
-          url: https://www.ted.com/profiles/10556002
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
     - title: facebook

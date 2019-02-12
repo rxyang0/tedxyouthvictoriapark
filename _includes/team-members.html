@@ -1,6 +1,6 @@
 <!-- Team members -->
 {% for member in site.team %}
-    <div class="portfolio-modal modal fade" id="team{{ member.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="{{ member.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -14,7 +14,6 @@
                         <div class="modal-body">
                             <h2>{{ member.name }}</h2>
                             <hr class="star-primary">
-                            <img src="images/team/{{ member.img }}.jpg" class="img-responsive img-centered" alt="{{ member.alt }}">
                             <p>{{ member.description }}</p>
                             <!-- <ul class="list-inline item-details">
                                 <li>Additional detail:
