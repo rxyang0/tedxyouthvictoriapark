@@ -8,7 +8,11 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand page-scroll" href="#page-top">
+			{% if page.url == "/" %}
+				<a class="navbar-brand page-scroll" href="#page-top">
+			{% else %}
+				<a class="navbar-brand page-scroll" href="/">
+			{% endif %}
 				<img class="logo-img" src="/images/logos/TEDxYouth@VictoriaPark-logo-1.png" alt="Logo">
 			</a>
 		</div>
