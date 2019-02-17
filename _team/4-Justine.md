@@ -1,7 +1,6 @@
 ---
 name: Justine Bui
 position: Sponsorship Director
-layout: default
 modal-id: justine
 img: 4
 thumbnail: dreams-thumbnail.png

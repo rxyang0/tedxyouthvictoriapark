@@ -1,7 +1,6 @@
 ---
 name: Stanton Thai
 position: Organizer
-layout: default
 modal-id: stanton
 img: 1
 thumbnail: dreams-thumbnail.png

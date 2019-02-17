@@ -1,7 +1,6 @@
 ---
 name: Jessica Bui
 position: VP of Finance
-layout: default
 modal-id: jessica
 img: 5
 thumbnail: dreams-thumbnail.png
