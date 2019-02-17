@@ -1,7 +1,6 @@
 ---
 name: Julie Ly
 position: Marketing Director
-layout: default
 modal-id: julie
 img: 3
 thumbnail: dreams-thumbnail.png

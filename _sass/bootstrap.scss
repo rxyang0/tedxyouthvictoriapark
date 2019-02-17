@@ -133,6 +133,10 @@ textarea {
     margin: 0
 }
 
+.font-weight-bold {
+    font-weight: bold;
+}
+
 button {
     overflow: visible
 }
@@ -1722,7 +1726,7 @@ pre code {
 	}
 	.logo-img {
 		height: 27px;
-	}
+    }
 }
 
 @media (min-width:474px) {
@@ -1731,7 +1735,7 @@ pre code {
 	}
 	.logo-img {
 		height: 36px;
-	}
+    }
 }
 
 @media (min-width:768px) {
@@ -1743,7 +1747,7 @@ pre code {
 	}
 	.logo-img {
 		height: 45px;
-	}
+    }
 }
 
 @media (min-width:1024px) {
@@ -1755,7 +1759,7 @@ pre code {
 	}
 	.logo-img {
 		height: 41px;
-	}
+    }
 }
 
 @media (min-width:1330px) {
@@ -1767,7 +1771,7 @@ pre code {
 	}
 	.logo-img {
 		height: 50px;
-	}
+    }
 }
 
 .container-fluid {
@@ -2849,7 +2853,6 @@ label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
-    font-weight: bold
 }
 
 input[type="search"] {
@@ -2862,7 +2865,9 @@ input[type="radio"],
 input[type="checkbox"] {
     margin: 4px 0 0;
     margin-top: 1px \9;
-    line-height: normal
+    line-height: normal;
+    width: 15px;
+    height: 15px;
 }
 
 input[type="file"] {

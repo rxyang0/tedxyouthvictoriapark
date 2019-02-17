@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url("images/header-bg-blurred.jpg");
+    background-image: url("/images/header-bg-blurred.jpg");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -329,7 +329,6 @@ section {
 }
 
 section h2.section-heading {
-    margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
 }
@@ -863,8 +862,4 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: $colorPrimary;
 }

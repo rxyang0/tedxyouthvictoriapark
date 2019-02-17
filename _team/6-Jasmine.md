@@ -1,7 +1,6 @@
 ---
 name: Jasmine Nguyen
 position: Social Media Coordinator
-layout: default
 modal-id: jasminen
 img: 6
 thumbnail: dreams-thumbnail.png

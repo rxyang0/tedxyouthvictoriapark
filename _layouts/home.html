@@ -5,7 +5,9 @@ layout: compress
 <html>
 	{% include head.html %}
     <body id="page-top" class="index">
+		{% include navbar.html %}
 		{% include header.html %}
+		<script src="{{ "/js/countdown.js" | prepend: site.baseurl }}"></script>
 		{% include about.html %}
 		{% include theme.html %}
 		{% include speakers.html %}

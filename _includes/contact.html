@@ -12,14 +12,14 @@
                 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSftXHyztRcnYcZuEtW2yshTXVV-K-eoJHiL_dWrlg5C64y0_w/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="control-group form-group">
+                            <!-- <div class="control-group form-group">
                                 <select name="entry.2121589757" class="form-control" required data-validation-required-message="Please select an option.">
                                     <option value="General Message">General Message</option>
                                     <option value="Speaker Application">Speaker Application</option>
                                     <option value="Member Application">Member Application</option>
                                 </select>
                                 <p class="help-block text-danger"></p>
-                            </div>
+                            </div> -->
                             <div class="control-group form-group">
                                 <input type="text" name="entry.1028854707" class="form-control" id="name" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
                                 <p class="help-block text-danger"></p>
@@ -42,6 +42,7 @@
                 </form>
                 <h3 class="section-subheading text-center" id="submitmsg" style="display: none; color: #fff; margin-bottom: 0px;">Your response has been received. Thank you!</h3>
                 <script type="text/javascript">
+                    var submitted = false;
                     document.getElementById('gform').addEventListener('submit', function(e) {
                         document.getElementById('submitform').innerHTML = '<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>';
                     });
