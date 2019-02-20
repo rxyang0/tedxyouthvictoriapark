@@ -14,7 +14,7 @@ layout: page
                     Our event theme for the conference is "Shifting Equilibrium: A Journey Into The Unknown." More information regarding the underlying 
                     meaning of the event theme can be found here: <a href="https://tiny.cc/shiftingequilibrium">https://tiny.cc/shiftingequilibrium</a>
                     <br><br>
-                    Please complete the questionnaire below. <u>All fields are required.</u> We appreciate your interest and will contact you if your application is being considered.
+                    Please complete the questionnaire below. <u>All fields are required unless specified otherwise.</u> We appreciate your interest and will contact you if your application is being considered.
 				</p>
             </div>
         </div>
@@ -25,21 +25,10 @@ layout: page
     <div class="container nominate-speaker-form">
         <div class="row">
             <div class="col-lg-12">
-                <!-- 
-                entry.67914793
-                entry.643011627
-                entry.108440397
-                entry.461184019
-                entry.1697921508
-                entry.1217299839
-                entry.31847656
-                entry.1394789178
-                entry.12710770
-                entry.494738564
-                -->
                 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeJRm4r52goxi7UbyYZhkoZIZXKQXgrTTMYizmp3ssrTiI29A/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
                     <div class="row">
                         <div class="col-lg-12">
+
                             <!-- Question 1 -->
                             <div class="control-group form-group">
                                 <label for="entry.67914793" class="font-weight-bold">
@@ -58,6 +47,35 @@ layout: page
                                     <label class="form-check-label" for="q1b">Someone else</label>
                                 </div>
                             </div>
+
+                            <!-- Question opt 1 -->
+                            <div class="control-group form-group" id="group-q1-1" style="display: none; padding-left: 20px;">
+                                <label for="q1-1" class="font-weight-bold">
+                                    a) What is your name?
+                                </label>
+                                <input type="text" name="entry.1572097809" id="q1-1" class="form-control" placeholder="Name of nominator" required>
+                            </div>
+
+                            <!-- Question opt 2 -->
+                            <div class="control-group form-group" id="group-q1-2" style="display: none; padding-left: 20px;">
+                                <label for="q1-2" class="font-weight-bold">
+                                    b) What is your email?
+                                </label>
+                                <input type="email" name="entry.444535570" id="q1-2" class="form-control" placeholder="Email of nominator" required>
+                            </div>
+
+                            <!-- Question opt 3 -->
+                            <div class="control-group form-group" id="group-q1-3" style="display: none; padding-left: 20px;">
+                                <label for="q1-3" class="font-weight-bold">
+                                    c) What is your phone number?
+                                </label>
+                                <small class="form-text text-muted">
+                                    <br>
+                                    Not required.
+                                </small>
+                                <input type="tel" name="entry.962621399" id="q1-3" class="form-control" placeholder="Phone number of nominator">
+                            </div>
+
                             <!-- Question 2 -->
                             <div class="control-group form-group">
                                 <label for="q2" class="font-weight-bold">
@@ -65,6 +83,27 @@ layout: page
                                 </label>
                                 <input type="text" name="entry.643011627" id="q2" class="form-control" placeholder="Name of nominee" required>
                             </div>
+
+                            <!-- Question 2-1 -->
+                            <div class="control-group form-group" style="padding-left: 20px;">
+                                <label for="q2-1" class="font-weight-bold">
+                                    a) What is the email of the person you are nominating?
+                                </label>
+                                <input type="email" name="entry.304504260" id="q2-1" class="form-control" placeholder="Email of nominee" required>
+                            </div>
+
+                            <!-- Question 2-2 -->
+                            <div class="control-group form-group" style="padding-left: 20px;">
+                                <label for="q2-2" class="font-weight-bold">
+                                    b) What is the phone number of the person you are nominating?
+                                </label>
+                                <small class="form-text text-muted">
+                                    <br>
+                                    Not required.
+                                </small>
+                                <input type="tel" name="entry.855013506" id="q2-2" class="form-control" placeholder="Phone number of nominee">
+                            </div>
+
                             <!-- Question 3 -->
                             <div class="control-group form-group">
                                 <label for="q3" class="font-weight-bold">
@@ -76,6 +115,7 @@ layout: page
                                 </small>
                                 <input type="number" name="entry.108440397" id="q3" class="form-control" placeholder="18" min="13" max="22" onkeydown="javascript: return event.keyCode == 69 ? false : true" required>
                             </div>
+
                             <!-- Question 4 -->
                             <div class="control-group form-group">
                                 <label for="q4" class="font-weight-bold">
@@ -87,13 +127,15 @@ layout: page
                                 </small>
                                 <textarea name="entry.461184019" id="q4" class="form-control" placeholder="" required></textarea>
                             </div>
+
                             <!-- Question 5 -->
                             <div class="control-group form-group">
                                 <label for="q5" class="font-weight-bold">
                                     5. Why do you believe that the nominee deserves to be a speaker at our conference? (1-5 sentences)
                                 </label>
-                                <textarea name="entry.1697921508" id="q5" class="form-control" placeholder="" required></textarea>
+                                <textarea name="entry.1697921508" id="q5" class="form-control" style="height: 100px;" placeholder="" required></textarea>
                             </div>
+
                             <!-- Question 6 -->
                             <div class="control-group form-group">
                                 <label for="entry.1217299839" class="font-weight-bold">
@@ -147,6 +189,7 @@ layout: page
                                     <input type="text" name="entry.1217299839" id="q6k_" class="form-control" placeholder="Other:">                                    
                                 </div>
                             </div>
+
                             <!-- Question 7 -->
                             <div class="control-group form-group">
                                 <label for="q7" class="font-weight-bold">
@@ -157,8 +200,9 @@ layout: page
                                     <br>
                                     (1-3 sentences)
                                 </small>
-                                <textarea name="entry.31847656" id="q7" class="form-control" placeholder="" required></textarea>
+                                <textarea name="entry.31847656" id="q7" class="form-control" style="height: 80px;" placeholder="" required></textarea>
                             </div>
+
                             <!-- Question 8 -->
                             <div class="control-group form-group">
                                 <label for="q8" class="font-weight-bold">
@@ -170,6 +214,7 @@ layout: page
                                 </small>
                                 <textarea name="entry.1394789178" id="q8" class="form-control" style="height: 200px;" placeholder="" required></textarea>
                             </div>
+
                             <!-- Question 9 -->
                             <div class="control-group form-group">
                                 <label for="q9" class="font-weight-bold">
@@ -181,7 +226,7 @@ layout: page
                                     LinkedIn, scholarship websites, social media sites, published documents (even if they are locked by a payment firewall), 
                                     are all fair game! If you aren't sure whether or not to send a link, just send it!
                                 </small>
-                                <textarea name="entry.12710770" id="q9" class="form-control" placeholder="" required></textarea>
+                                <textarea name="entry.12710770" id="q9" class="form-control" style="height: 80px;" placeholder="" required></textarea>
                             </div>
 
                             <!-- Question 10 -->
@@ -201,7 +246,7 @@ layout: page
                                     <label class="form-check-label" for="q10b">Yes, I am available</label>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div class="col-lg-12 text-center">
                             <button type="submit" class="btn btn-xl" id="submitform">Submit</button>
