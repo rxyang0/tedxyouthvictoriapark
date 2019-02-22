@@ -10,9 +10,18 @@
 	<link rel="apple-touch-icon" href="images/favicon.png">
 
 	<style>
-        {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-        {{ scss_sheet | scssify }}
+    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+    {{ scss_sheet | scssify }}
     </style>
+
+    <!-- Global site tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131450444-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-131450444-2');
+    </script>
 
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
