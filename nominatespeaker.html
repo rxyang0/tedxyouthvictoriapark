@@ -256,21 +256,23 @@ layout: page
                     </div>
                 </form>
                 <h3 class="section-subheading text-center" id="submitmsg" style="display: none; margin-bottom: 0px;">Your application has been received. Thank you!</h3>
+                
                 <script type="text/javascript">
-                    var submitted = false;
-                    document.getElementById('gform').addEventListener('submit', function(e) {
-                        if(!document.getElementById('q6k').checked) {
-                            document.getElementById('q6k_').disabled = true;
-                        } else if (document.getElementById('q6k').checked) {
-                            document.getElementById('q6k').disabled = true;
-                            document.getElementById('q6k_').value = "Other: " + document.getElementById('q6k_').value;
-                        }
-                        if(document.getElementById('q10b').checked) {
-                            document.getElementById('q10a').disabled = true;
-                        }
-                        document.getElementById('submitform').innerHTML = '<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>';
-                    });
+                var submitted = false;
+                document.getElementById('gform').addEventListener('submit', function(e) {
+                    if(!document.getElementById('q6k').checked) {
+                        document.getElementById('q6k_').disabled = true;
+                    } else if (document.getElementById('q6k').checked) {
+                        document.getElementById('q6k').disabled = true;
+                        document.getElementById('q6k_').value = "Other: " + document.getElementById('q6k_').value;
+                    }
+                    if(document.getElementById('q10b').checked) {
+                        document.getElementById('q10a').disabled = true;
+                    }
+                    document.getElementById('submitform').innerHTML = '<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>';
+                });
                 </script>
+
                 <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if (submitted) {
                     document.getElementById('gform').style.display = 'none';
                     document.getElementById('submitmsg').style.display = 'block';

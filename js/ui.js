@@ -37,6 +37,10 @@ $('div.modal').on('show.bs.modal', function() {
 /**
  * For Nominate Speaker Form
  */
+$(function() {
+    $('#gform').areYouSure();
+});
+
 $('input[name="entry.1217299839"]:radio').change(function() {
     if ($('#q6k').is(':checked')) {
         $('#q6k_').prop('required', true);
