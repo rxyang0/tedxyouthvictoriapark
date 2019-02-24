@@ -16,18 +16,19 @@
 					<div class="col-sm-4">
 				{%- endif -%}
 						<div class="team-member">
-							<a href="#{{ member.modal-id }}" class="portfolio-link" data-toggle="modal" style="color: #000;">
-								<h4>{{ member.name }}</h4>
-							</a>
+							<h4>{{ member.name }}</h4>
 							<p class="text-muted">{{ member.position }}</p>
 							<ul class="list-inline social-buttons">
-								{% for network in member.social %}
+								<!-- {% for network in member.social %}
 								<li>
 									<a href="{{ network.url }}">
 										<i class="fa fa-{{ network.title }}"></i>
 									</a>
 								</li>
-								{% endfor %}
+								{% endfor %} -->
+								<a href="#{{ member.modal-id }}" data-toggle="modal">
+									<i class="fa fa-2x fa-plus-circle"></i>
+								</a>
 							</ul>
 						</div>
 					</div>
