@@ -1,16 +1,12 @@
 url: https://tedxyouthvictoriapark.ca
-baseurl: 
 
-# Site settings
 title: TEDxYouth@VictoriaPark
-email: 
 description: "An independently organized TED event"
 
 collections:
     - speakers
     - team
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
     - title: facebook
       url: https://www.facebook.com/tedxyouthvictoriapark
