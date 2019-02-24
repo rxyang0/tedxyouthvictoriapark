@@ -1,7 +1,10 @@
 url: https://tedxyouthvictoriapark.ca
 
 title: TEDxYouth@VictoriaPark
-description: "An independently organized TED event"
+description: >-
+  A youth-based TEDx organization in the Calgary area aimed towards exploring the issues, ideas and questions that are 
+  central to young people today. We believe in providing an opportunity and platform for local youth to share their 
+  novel and innovative ideas to their local and global communities.
 
 collections:
     - speakers
