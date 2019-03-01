@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700);
-@import "/css/font-awesome/css/font-awesome.min.css";
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/solid.scss";
+@import "fontawesome/brands.scss";
 @import "variables";
 @import "bootstrap";
 @import "general";
