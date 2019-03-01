@@ -1,0 +1,52 @@
+// Montserrat:400,700
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('../css/fonts/montserrat-v12-latin-regular.woff2') format('woff2'),
+        url('../css/fonts/montserrat-v12-latin-regular.woff') format('woff');
+}
+@font-face {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+src: local('Montserrat Bold'), local('Montserrat-Bold'),
+    url('../css/fonts/montserrat-v12-latin-700.woff2') format('woff2'),
+    url('../css/fonts/montserrat-v12-latin-700.woff') format('woff');
+}
+
+
+// Roboto+Slab:400,100,300,700
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto Slab Thin'), local('RobotoSlab-Thin'),
+         url('../css/fonts/roboto-slab-v8-latin-100.woff2') format('woff2'),
+         url('../css/fonts/roboto-slab-v8-latin-100.woff') format('woff');
+}
+@font-face {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 300;
+src: local('Roboto Slab Light'), local('RobotoSlab-Light'),
+    url('../css/fonts/roboto-slab-v8-latin-300.woff2') format('woff2'),
+    url('../css/fonts/roboto-slab-v8-latin-300.woff') format('woff');
+}
+@font-face {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 400;
+src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+    url('../css/fonts/roboto-slab-v8-latin-regular.woff2') format('woff2'),
+    url('../css/fonts/roboto-slab-v8-latin-regular.woff') format('woff');
+}
+@font-face {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'),
+    url('../css/fonts/roboto-slab-v8-latin-700.woff2') format('woff2'),
+    url('../css/fonts/roboto-slab-v8-latin-700.woff') format('woff');
+}

@@ -1,8 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700);
+@import "fonts.scss";
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
 @import "fontawesome/fontawesome.scss";
 @import "fontawesome/solid.scss";
 @import "fontawesome/brands.scss";
-@import "variables";
-@import "bootstrap";
-@import "general";
-@import "pages/nominate-speaker";
+@import "variables.scss";
+@import "bootstrap.scss";
+@import "general.scss";
+@import "pages/nominate-speaker.scss";
