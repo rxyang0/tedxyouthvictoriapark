@@ -1,0 +1,48 @@
+@media (min-width:992px) {
+	.icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        right: 0;
+    }
+    
+    .icon-bar a {
+        display: block;
+        text-align: center;
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        line-height: 45px;
+        outline: 0;
+        color: #fff;
+        background-color: #222;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+    }
+    
+    .icon-bar a:hover,
+    .icon-bar a:focus,
+    .icon-bar a:active {
+        background-color: $colorPrimary;
+    }
+
+    .icon-bar a.icon-bar-instagram {
+        background-color: $colorPrimary;
+    }
+
+    .icon-bar a.icon-bar-instagram:hover,
+    .icon-bar a.icon-bar-instagram:focus,
+    .icon-bar a.icon-bar-instagram:active {
+        color: $colorPrimary;
+        background-color: #222;
+    }
+}
+
+@media (max-width:991px) {
+    .icon-bar {
+        display: none;
+    }
+}

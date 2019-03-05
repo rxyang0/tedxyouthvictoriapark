@@ -1,0 +1,5 @@
+<div class="icon-bar">
+    {% for network in site.social %}
+    <a href="{{ network.url }}" target="_blank" class="icon-bar-{{ network.title }}"><i class="fab fa-{{ network.title }}"></i></a>
+    {% endfor %}
+</div>
