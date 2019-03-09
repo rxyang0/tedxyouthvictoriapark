@@ -652,6 +652,7 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
+    height: 75px;
 }
 
 section#contact {
@@ -866,4 +867,8 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
+}
+
+.tooltip.bottom {
+    margin-top: 10px;
 }
