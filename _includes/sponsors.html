@@ -18,7 +18,7 @@
                     <div class="col-md-3">
                     {% endif %}
                         <a href="{{ sponsor.href }}" target="_blank">
-                            <img src="/images/logos/{{ sponsor.img }}" class="img-responsive img-centered" alt="" data-toggle="tooltip" data-placement="bottom" title="Crave Cupcakes">
+                            <img src="/images/logos/{{ sponsor.img }}" class="img-responsive img-centered" alt="" data-toggle="tooltip" data-placement="bottom" title="{{ sponsor.tooltip }}">
                         </a>
                     </div>
                     {% endfor %}
