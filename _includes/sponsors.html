@@ -10,20 +10,13 @@
         <aside class="clients">
             <div class="container">
                 <div class="row">
-                    {% assign sorted_sponsors = site.sponsors | sort:"order" %}
-                    {% for sponsor in sorted_sponsors %}
-                    {% if site.sponsors.size == 1 %}
                     <div class="col-md-12">
-                    {% else %}
-                    <div class="col-md-3">
-                    {% endif %}
-                        <a href="{{ sponsor.href }}" target="_blank">
-                            <img src="/images/logos/{{ sponsor.img }}" class="img-responsive img-centered" alt="" data-toggle="tooltip" data-placement="bottom" title="{{ sponsor.tooltip }}">
+                        <a href="https://cravecupcakes.ca/" target="_blank">
+                            <img src="/images/logos/Crave-logo.png" class="img-responsive img-centered" alt="" data-toggle="tooltip" data-placement="bottom" title="Crave Cupcakes">
                         </a>
                     </div>
-                    {% endfor %}
-                    </div>
                 </div>
+            </div>
         </aside>
     </div>
 </section>
