@@ -23,20 +23,25 @@
         -moz-transition: all .3s;
     }
     
-    .icon-bar a:hover,
-    .icon-bar a:focus,
-    .icon-bar a:active {
-        background-color: $colorPrimary;
+    .icon-bar a.icon-bar-facebook-f:hover,
+    .icon-bar a.icon-bar-facebook-f:focus,
+    .icon-bar a.icon-bar-facebook-f:active {
+        color: #3B5998;
     }
-
+    
     .icon-bar a.icon-bar-instagram {
         background-color: $colorPrimary;
     }
-
     .icon-bar a.icon-bar-instagram:hover,
     .icon-bar a.icon-bar-instagram:focus,
     .icon-bar a.icon-bar-instagram:active {
-        background-color: #222;
+        color: #FBAD50;
+    }
+
+    .icon-bar a.icon-bar-linkedin-in:hover,
+    .icon-bar a.icon-bar-linkedin-in:focus,
+    .icon-bar a.icon-bar-linkedin-in:active {
+        color: #0077B5;
     }
 
     .icon-bar a:first-child {
