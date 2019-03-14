@@ -38,6 +38,14 @@
     .icon-bar a.icon-bar-instagram:active {
         background-color: #222;
     }
+
+    .icon-bar a:first-child {
+        border-radius: 10px 0px 0px 0px;
+    }
+
+    .icon-bar a:last-child {
+        border-radius: 0px 0px 0px 10px;
+    }
 }
 
 @media (max-width:991px) {
