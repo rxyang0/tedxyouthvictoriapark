@@ -10,6 +10,7 @@
     
     .icon-bar a {
         display: block;
+        position: relative;
         text-align: center;
         width: 45px;
         height: 45px;
@@ -26,7 +27,7 @@
     .icon-bar a.icon-bar-facebook-f:hover,
     .icon-bar a.icon-bar-facebook-f:focus,
     .icon-bar a.icon-bar-facebook-f:active {
-        color: #3B5998;
+        background-color: #3B5998;
     }
     
     .icon-bar a.icon-bar-instagram {
@@ -35,13 +36,32 @@
     .icon-bar a.icon-bar-instagram:hover,
     .icon-bar a.icon-bar-instagram:focus,
     .icon-bar a.icon-bar-instagram:active {
-        color: #FBAD50;
+        color: #222;
+        background-color: #222;
+    }
+    .icon-bar img.icon-bar-instagram-icon {
+        position: absolute;
+        width: 40px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        opacity: 0;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+    }
+    .icon-bar img.icon-bar-instagram-icon:hover,
+    .icon-bar img.icon-bar-instagram-icon:focus,
+    .icon-bar img.icon-bar-instagram-icon:active {
+        opacity: 1;
     }
 
     .icon-bar a.icon-bar-linkedin-in:hover,
     .icon-bar a.icon-bar-linkedin-in:focus,
     .icon-bar a.icon-bar-linkedin-in:active {
-        color: #0077B5;
+        background-color: #0077B5;
     }
 
     .icon-bar a:first-child {
