@@ -33,15 +33,9 @@
     .icon-bar a.icon-bar-instagram {
         background-color: $colorPrimary;
     }
-    .icon-bar a.icon-bar-instagram:hover,
-    .icon-bar a.icon-bar-instagram:focus,
-    .icon-bar a.icon-bar-instagram:active {
-        color: #222;
-        background-color: #222;
-    }
     .icon-bar img.icon-bar-instagram-icon {
         position: absolute;
-        width: 40px;
+        width: 23px;
         left: 0;
         right: 0;
         top: 0;
@@ -52,9 +46,9 @@
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
     }
-    .icon-bar img.icon-bar-instagram-icon:hover,
-    .icon-bar img.icon-bar-instagram-icon:focus,
-    .icon-bar img.icon-bar-instagram-icon:active {
+    .icon-bar a.icon-bar-instagram:hover > img.icon-bar-instagram-icon,
+    .icon-bar a.icon-bar-instagram:focus > img.icon-bar-instagram-icon,
+    .icon-bar a.icon-bar-instagram:active > img.icon-bar-instagram-icon {
         opacity: 1;
     }
 
