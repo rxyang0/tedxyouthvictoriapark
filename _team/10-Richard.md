@@ -1,15 +1,7 @@
 ---
 name: Richard Yang
 position: Web Developer
-modal-id: richard
-img: 10
-thumbnail: dreams-thumbnail.png
-alt: image-alt
-social:
-    - title: linkedin
-      url: 
-project-date:
-client:
-category:
+modal-id: richard-yang
+order: 10
 description: 
 ---

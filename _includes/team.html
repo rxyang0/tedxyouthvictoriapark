@@ -8,7 +8,7 @@
 			</div>
 		</div>
 		<div class="row">
-			{% assign sorted_members = site.team | sort:"img" %}
+			{% assign sorted_members = site.team | sort:"order" %}
 			{% for member in sorted_members %}
 				{%- if member.name == "Richard Yang" -%}
 					<div class="col-md-12">
