@@ -805,6 +805,12 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
+.portfolio-modal .modal-content .row.vcenter > * {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
@@ -828,6 +834,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content img {
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 

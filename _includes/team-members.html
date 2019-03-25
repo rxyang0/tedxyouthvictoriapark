@@ -10,10 +10,22 @@
             </div>
             <div class="container">
                 <div class="row">
+                    <div class="col-lg-12">
+                        <h2>{{ member.name }}</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                {% if member.img %}
+                <div class="row vcenter">
+                    <div class="col-lg-3 col-lgs-offset-1">
+                        <img src="images/team/{{ member.img }}" class="img-responsive img-circle" alt="{{ member.name }}'s image">
+                    </div>
+                    <div class="col-lg-8">
+                {% else %}
+                <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
+                {% endif %}
                         <div class="modal-body">
-                            <h2>{{ member.name }}</h2>
-                            <hr class="star-primary">
                             <p>{{ member.description }}</p>
                             <!-- <ul class="list-inline item-details">
                                 <li>Additional detail:
@@ -29,9 +41,11 @@
                                     </strong>
                                 </li>
                             </ul> -->
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                 </div>
             </div>
         </div>
