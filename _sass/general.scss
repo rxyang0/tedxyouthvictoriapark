@@ -383,7 +383,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background-color: $colorPrimary;
+    background-color: rgba(242, 27, 35, 0.8);
 }
 
 #speakers .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -646,14 +646,18 @@ section h3.section-subheading {
 }
 
 .team-member img {
+    width: 175px;
     margin: 0 auto;
-    border: 7px solid #fff;
 }
 
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+}
+
+.team-member h4 a {
+    color: inherit;
 }
 
 .team-member p {
