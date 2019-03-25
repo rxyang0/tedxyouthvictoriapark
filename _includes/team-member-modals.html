@@ -1,0 +1,53 @@
+<!-- Team member modals -->
+{% for member in site.team %}
+<div class="portfolio-modal modal fade" id="{{ member.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>{{ member.name }}</h2>
+          <hr class="star-primary">
+        </div>
+      </div>
+      {% if member.img %}
+      <div class="row vcenter">
+        <div class="col-lg-3">
+          <img src="images/team/{{ member.img }}" class="img-responsive img-circle" alt="{{ member.name }}'s image">
+        </div>
+        <div class="col-lg-8">
+      {% else %}
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+      {% endif %}
+          <div class="modal-body">
+            <p>{{ member.description }}</p>
+            <!-- <ul class="list-inline item-details">
+              <li>Additional detail:
+                  <strong><a href="">{{ member.client }}</a>
+                  </strong>
+              </li>
+              <li>Additional detail:
+                  <strong><a href="">{{ member.project-date }}</a>
+                  </strong>
+              </li>
+              <li>Additional detail:
+                  <strong><a href="">{{ member.category }}</a>
+                  </strong>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

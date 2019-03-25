@@ -1,48 +1,48 @@
 .form-check-label {
-    padding-left: 5px;
+  padding-left: 5px;
 }
 
 .input-group-addon {
-    padding: 0;
-    padding-right: 7px;
-    background-color: transparent;
-    border: 0;
+  padding: 0;
+  padding-right: 7px;
+  background-color: transparent;
+  border: 0;
 }
 
 .header-button {
-    margin: 5px;
+  margin: 5px;
 }
 
-@media (min-width:320px) {
-    .nominate-speaker-title {
-        margin-top: 20px;
-    }
+@media (min-width: 320px) {
+  .nominate-speaker-title {
+    margin-top: 20px;
+  }
 }
 
-@media (min-width:768px) {
-    .container.nominate-speaker-header,
-    .container.nominate-speaker-form {
-        width: 700px;
-    }
-    .nominate-speaker-title {
-        margin-top: 130px;
-    }
+@media (min-width: 768px) {
+  .container.nominate-speaker-header,
+  .container.nominate-speaker-form {
+    width: 700px;
+  }
+  .nominate-speaker-title {
+    margin-top: 130px;
+  }
 }
-@media (min-width:1024px) {
-    .container.nominate-speaker-header,
-    .container.nominate-speaker-form {
-        width: 900px;
-    }
-    .nominate-speaker-title {
-        margin-top: 75px;
-    }
+@media (min-width: 1024px) {
+  .container.nominate-speaker-header,
+  .container.nominate-speaker-form {
+    width: 900px;
+  }
+  .nominate-speaker-title {
+    margin-top: 75px;
+  }
 }
-@media (min-width:1330px) {
-    .container.nominate-speaker-header,
-    .container.nominate-speaker-form {
-        width: 1070px;
-    }
-    .nominate-speaker-title {
-        margin-top: 75px;
-    }
+@media (min-width: 1330px) {
+  .container.nominate-speaker-header,
+  .container.nominate-speaker-form {
+    width: 1070px;
+  }
+  .nominate-speaker-title {
+    margin-top: 75px;
+  }
 }

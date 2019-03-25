@@ -1,43 +1,44 @@
 <nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-		<!-- Group brand and toggle for better mobile display -->
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand page-scroll" href="{% if page.url == "/" %}#page-top{% else %}/{% endif %}">
-				<img class="logo-img" src="/images/logos/TEDxYouth@VictoriaPark-logo-navbar.png" alt="Logo">
-			</a>
-		</div>
+  <div class="container">
+    <!-- Group brand and toggle for mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand page-scroll" href="{% if page.url == "/" %}#page-top{% else %}/{% endif %}">
+        <img class="logo-img" src="/images/logos/TEDxYouth@VictoriaPark-logo-navbar.png" alt="Logo">
+      </a>
+    </div>
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="{% if page.url == "/" %}#page-top{% else %}/{% endif %}"></a>
-				</li>
-				<li>
-					<a class="page-scroll" href="{% if page.url == "/" %}#about{% else %}/#about{% endif %}">About</a>
-				</li>
-				<li>
-					<a class="page-scroll" href="{% if page.url == "/" %}#speakers{% else %}/#speakers{% endif %}">Speakers</a>
-				</li>
-				<li>
-					<a class="page-scroll" href="{% if page.url == "/" %}#sponsors{% else %}/#sponsors{% endif %}">Sponsors</a>
-				</li>
-				<li>
-					<a class="page-scroll" href="{% if page.url == "/" %}#team{% else %}/#team{% endif %}">Team</a>
-				</li>
-				<li>
-					<a class="page-scroll" href="{% if page.url == "/" %}#contact{% else %}/#contact{% endif %}">Contact</a>
-				</li>
-				<li>
-					<a class="btn btn-xl" href="https://www.eventbrite.ca/e/tedxyouthvictoriapark-tickets-58414500343" target="_blank">RSVP</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+    <!-- Collect nav links for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a href="{% if page.url == "/" %}#page-top{% else %}/{% endif %}"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="{% if page.url == "/" %}#about{% else %}/#about{% endif %}">About</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="{% if page.url == "/" %}#speakers{% else %}/#speakers{% endif %}">Speakers</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="{% if page.url == "/" %}#sponsors{% else %}/#sponsors{% endif %}">Sponsors</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="{% if page.url == "/" %}#team{% else %}/#team{% endif %}">Team</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="{% if page.url == "/" %}#contact{% else %}/#contact{% endif %}">Contact</a>
+        </li>
+        <li>
+          <a class="btn btn-xl" href="https://www.eventbrite.ca/e/tedxyouthvictoriapark-tickets-58414500343"
+              target="_blank">RSVP</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>

@@ -1,32 +1,32 @@
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-    <meta property="og:title" content="{{ site.title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
-    <meta property="og:image" content="{{ site.url }}/images/logos/TEDxYouth@VictoriaPark-logo-og.png" />
-    <meta property="og:description" content="{{ site.description }}" />
-    <meta name="theme-color" content="#f21b23">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+  <meta property="og:image" content="{{ site.url }}/images/logos/TEDxYouth@VictoriaPark-logo-og.png" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta name="theme-color" content="#f21b23">
 
-	<link rel="icon" type="image/x-icon" href="/images/favicon.png">
-	<link rel="apple-touch-icon" href="/images/favicon.png">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  <link rel="apple-touch-icon" href="/images/favicon.png">
 
-	<style>
-    {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
-    {{ scss_sheet | scssify }}
-    </style>
+  <style>
+  {% capture scss_sheet %}{% include style.scss %}{% endcapture %}
+  {{ scss_sheet | scssify }}
+  </style>
 
-    <!-- Global site tag -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131450444-2"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-131450444-2');
-    </script>
+  <!-- Global site tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131450444-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-131450444-2');
+  </script>
 </head>

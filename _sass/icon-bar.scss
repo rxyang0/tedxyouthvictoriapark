@@ -1,74 +1,76 @@
 @media (min-width:992px) {
-	.icon-bar {
-        position: fixed;
-        top: 50%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-        right: 0;
-    }
-    
-    .icon-bar a {
-        display: block;
-        position: relative;
-        text-align: center;
-        width: 45px;
-        height: 45px;
-        font-size: 20px;
-        line-height: 45px;
-        outline: 0;
-        color: #fff;
-        background-color: #222;
-        transition: all .3s;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-    }
-    
-    .icon-bar a.icon-bar-facebook-f:hover,
-    .icon-bar a.icon-bar-facebook-f:focus,
-    .icon-bar a.icon-bar-facebook-f:active {
-        background-color: #3B5998;
-    }
-    
-    .icon-bar a.icon-bar-instagram {
-        background-color: $colorPrimary;
-    }
-    .icon-bar img.icon-bar-instagram-icon {
-        position: absolute;
-        width: 23px;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        opacity: 0;
-        transition: all .3s;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-    }
-    .icon-bar a.icon-bar-instagram:hover > img.icon-bar-instagram-icon,
-    .icon-bar a.icon-bar-instagram:focus > img.icon-bar-instagram-icon,
-    .icon-bar a.icon-bar-instagram:active > img.icon-bar-instagram-icon {
-        opacity: 1;
-    }
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+  }
 
-    .icon-bar a.icon-bar-linkedin-in:hover,
-    .icon-bar a.icon-bar-linkedin-in:focus,
-    .icon-bar a.icon-bar-linkedin-in:active {
-        background-color: #0077B5;
-    }
+  .icon-bar a {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+  }
 
-    .icon-bar a:first-child {
-        border-radius: 10px 0px 0px 0px;
-    }
+  .icon-bar a.icon-bar-facebook-f:hover,
+  .icon-bar a.icon-bar-facebook-f:focus,
+  .icon-bar a.icon-bar-facebook-f:active {
+    background-color: #3B5998;
+  }
 
-    .icon-bar a:last-child {
-        border-radius: 0px 0px 0px 10px;
-    }
+  .icon-bar a.icon-bar-instagram {
+    background-color: $colorPrimary;
+  }
+
+  .icon-bar img.icon-bar-instagram-icon {
+    position: absolute;
+    width: 23px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+  }
+
+  .icon-bar a.icon-bar-instagram:hover>img.icon-bar-instagram-icon,
+  .icon-bar a.icon-bar-instagram:focus>img.icon-bar-instagram-icon,
+  .icon-bar a.icon-bar-instagram:active>img.icon-bar-instagram-icon {
+    opacity: 1;
+  }
+
+  .icon-bar a.icon-bar-linkedin-in:hover,
+  .icon-bar a.icon-bar-linkedin-in:focus,
+  .icon-bar a.icon-bar-linkedin-in:active {
+    background-color: #0077B5;
+  }
+
+  .icon-bar a:first-child {
+    border-radius: 10px 0px 0px 0px;
+  }
+
+  .icon-bar a:last-child {
+    border-radius: 0px 0px 0px 10px;
+  }
 }
 
 @media (max-width:991px) {
-    .icon-bar {
-        display: none;
-    }
+  .icon-bar {
+    display: none;
+  }
 }
