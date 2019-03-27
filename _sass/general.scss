@@ -667,7 +667,7 @@ section h3.section-subheading {
 
 #sponsors img {
   margin: 40px auto;
-  height: 80px;
+  max-height: 90px;
 }
 
 section#contact {
@@ -806,7 +806,7 @@ ul.social-buttons li a:active {
   box-shadow: none;
 }
 
-.portfolio-modal .modal-content .row.vcenter>* {
+.row.vcenter>* {
   display: inline-block;
   vertical-align: middle;
   float: none;
