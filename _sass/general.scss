@@ -375,6 +375,12 @@ section h3.section-subheading {
   text-transform: none;
 }
 
+#about .rectangle {
+  height: 10px;
+  width: 100px;
+  background-color: $colorPrimary;
+}
+
 #speakers .portfolio-item {
   right: 0;
   margin: 0 0 15px;
