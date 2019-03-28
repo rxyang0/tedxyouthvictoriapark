@@ -290,8 +290,14 @@ header {
 }
 
 header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+
+header .intro-img {
+  display: inline-block;
+  margin-bottom: 25px;
+  max-height: 100px;
 }
 
 header .intro-text .intro-lead-in {
@@ -306,15 +312,20 @@ header .intro-text .intro-heading {
   margin-bottom: 25px;
   text-transform: uppercase;
   font-family: $fontPrimary;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 50px;
 }
 
 @media(min-width:768px) {
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 200px;
+    padding-bottom: 12%;
+  }
+
+  header .intro-img {
+    margin-bottom: 50px;
+    max-height: 200px;
   }
 
   header .intro-text .intro-lead-in {
