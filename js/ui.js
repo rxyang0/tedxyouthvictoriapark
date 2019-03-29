@@ -171,15 +171,18 @@ if (window.location.pathname == "/") {
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = ("0" + Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
     var minutes = ("0" + Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
-    var seconds = ("0" + Math.floor((distance % (1000 * 60)) / 1000)).slice(-2);
     // Display
-    document.getElementById("countdown").innerHTML = days + " days " + hours + ":" + minutes + ":" + seconds;
+    document.getElementById("countdownD").innerHTML = days;
+    document.getElementById("countdownH").innerHTML = hours;
+    document.getElementById("countdownM").innerHTML = minutes;
     // If the count down is finished, write some text
     if (distance < 0) {
       clearInterval(x);
-      document.getElementById("countdown").innerHTML = "0 days 00:00:00";
+      document.getElementById("countdownD").innerHTML = 0;
+      document.getElementById("countdownH").innerHTML = 0;
+      document.getElementById("countdownM").innerHTML = 0;
     }
-    setTimeout(updateCountdown, 1000);
+    setTimeout(updateCountdown, 60000);
   })();
 
   // Shrink navbar on scroll

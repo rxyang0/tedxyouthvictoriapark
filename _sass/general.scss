@@ -290,7 +290,7 @@ header {
 }
 
 header .intro-text {
-  padding-top: 50%;
+  padding-top: 40%;
   padding-bottom: 50%;
 }
 
@@ -315,6 +315,10 @@ header .intro-text .intro-heading {
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
+}
+
+header .intro-text .intro-heading > div {
+  display: inline-block;
 }
 
 @media(min-width:768px) {
