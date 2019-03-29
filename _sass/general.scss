@@ -687,6 +687,13 @@ section h3.section-subheading {
   max-height: 90px;
 }
 
+@media(min-width: 768px) {
+  #sponsors .row.vcenter {
+    display: flex;
+    align-items: center;
+  }
+}
+
 section#contact {
   background-color: #222;
   background-position: center;
@@ -823,7 +830,7 @@ ul.social-buttons li a:active {
   box-shadow: none;
 }
 
-.row.vcenter>* {
+.modal-content .row.vcenter>* {
   display: inline-block;
   vertical-align: middle;
   float: none;
