@@ -167,10 +167,10 @@ if (window.location.pathname == "/") {
     var now = new Date().getTime();
     // Find the distance between now and the countdown date
     var distance = countDownDate - now;
-    // Time calculations and prefix "0" if needed
+    // Time calculations
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = ("0" + Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
-    var minutes = ("0" + Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     // Display
     document.getElementById("countdownD").innerHTML = days;
     document.getElementById("countdownH").innerHTML = hours;
