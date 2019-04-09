@@ -273,8 +273,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  height: 100vh;
   text-align: center;
-  color: #fff;
   background-attachment: scroll;
   background-position: center center;
   background-repeat: none;
@@ -296,65 +298,39 @@ header {
   }
 }
 
-header .intro-text {
-  padding-top: 40%;
-  padding-bottom: 50%;
+header .hero {
+  color: #fff;
+  padding-top: 10vh;
 }
 
-header .intro-img {
+header .hero .intro-img {
   display: inline-block;
-  margin-bottom: 25px;
-  max-height: 100px;
+  margin-bottom: 8vh;
+  max-height: 26vh;
 }
 
-header .intro-text .intro-lead-in {
-  margin-bottom: 25px;
-  font-family: $fontSecondary;
-  font-size: 22px;
-  font-style: italic;
-  line-height: 22px;
-}
-
-header .intro-text .intro-heading {
-  margin-bottom: 25px;
+header .hero .intro-heading {
   text-transform: uppercase;
   font-family: $fontPrimary;
-  font-size: 40px;
   font-weight: 700;
-  line-height: 50px;
+  margin-bottom: 10vh;
+  font-size: 6vh;
 }
 
-header .intro-text .intro-heading > div {
+// For mobile
+@media(max-width:768px) {
+  header .hero .intro-img {
+    max-width: 80vw;
+    margin-bottom: 4vh;
+  }
+  
+  header .hero .intro-heading {
+    margin-bottom: 8vh;
+  }
+}
+
+header .hero .intro-heading > div.countdown {
   display: inline-block;
-}
-
-@media(min-width:768px) {
-  header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 12%;
-  }
-
-  header .intro-img {
-    margin-bottom: 50px;
-    max-height: 200px;
-  }
-
-  header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: $fontSecondary;
-    font-size: 40px;
-    font-style: italic;
-    line-height: 40px;
-  }
-
-  header .intro-text .intro-heading {
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    font-family: $fontPrimary;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 75px;
-  }
 }
 
 section {
