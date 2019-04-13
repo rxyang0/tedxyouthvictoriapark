@@ -369,6 +369,22 @@ section h3.section-subheading {
   background-color: $colorPrimary;
 }
 
+#theme .theme-img {
+  float: left;
+  max-width: calc(150px + 15vw);
+  padding: 0.938vw 1.875vw 0.938vw 0;
+}
+
+@media(max-width:575px) {
+  #theme .theme-img {
+    float: none;
+    max-width: 100%;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+}
+
 #speakers .portfolio-item {
   right: 0;
   margin: 0 0 15px;
