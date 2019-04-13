@@ -24,7 +24,7 @@
                 </div>
               </div>
               {% if member.img %}
-              <img src="images/team/{{ member.img }}" class="img-responsive img-circle" alt="{{ member.name }}'s image">
+              <img data-src="images/team/{{ member.img }}" class="img-responsive img-circle lazyload" alt="{{ member.name }}'s image">
               {% else %}
               <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="img-responsive img-circle"
                   alt="">
