@@ -3,7 +3,7 @@
   <a href="{{ network.url }}" target="_blank" class="icon-bar-{{ network.title }}">
     <i class="fab fa-{{ network.title }}"></i>
     {% if network.title == "instagram" %}
-    <img class="icon-bar-instagram-icon" src="/images/social/Instagram-icon.png">
+    <img data-src="/images/social/Instagram-icon.png" class="icon-bar-instagram-icon lazyload">
     {% endif %}
   </a>
   {% endfor %}
