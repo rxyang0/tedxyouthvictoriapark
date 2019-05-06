@@ -4,7 +4,7 @@ subtitle: Education
 order: 5
 modal-id: aishwarya-khanduja
 thumbnail: Aishwarya-Khanduja-thumbnail.jpg
-img: 
+img: Aishwarya-Khanduja-modal.jpg
 description: >-
   Aishwarya is a socially focused interdisciplinary artist, student, innovator, and entrepreneur. She is a recent
   graduate of the health sciences program from the University of Calgary Cumming School of Medicine. She strives to be a

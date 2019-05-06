@@ -4,7 +4,7 @@ subtitle: Science/Medicine
 order: 1
 modal-id: muna-adam
 thumbnail: Muna-Adam-thumbnail.jpg
-img: 
+img: Muna-Adam-modal.jpg
 description: >-
   Muna is currently a University of Calgary student in a combined Psychology and Chemistry degree. Muna is a strong
   active advocate towards youth-directed science outreach, and she is currently involved with various organizations and

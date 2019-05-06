@@ -4,7 +4,7 @@ subtitle: Science/Medicine
 order: 2
 modal-id: catharine-bowman
 thumbnail: Catharine-Bowman-thumbnail.jpg
-img: 
+img: Catharine-Bowman-modal.jpg
 description: >-
   Catharine Bowman is a medical researcher, public speaker, and healthcare advocate with a profound interest in
   utilizing innovative thinking to approach societal healthcare challenges. In 2008, Catharine’s mother was diagnosed

@@ -4,7 +4,7 @@ subtitle: Science/Medicine
 order: 6
 modal-id: jesse-lee
 thumbnail: Jesse-Lee-thumbnail.jpg
-img: 
+img: Jesse-Lee-modal.jpg
 description: >-
   Jesse Lee is currently an 11th grade high school student at Western Canada High School, a student researcher at both
   the University of Calgary and the University of Alberta, and a notebook enthusiast. He is working on numerous

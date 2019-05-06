@@ -4,7 +4,7 @@ subtitle: Environment
 order: 8
 modal-id: madison-savilow
 thumbnail: Madison-Savilow-thumbnail.jpg
-img: 
+img: Madison-Savilow-modal.jpg
 description: >-
   Madison carries her strong passion for entrepreneurialism, business, and the sciences into every aspect of her life.
   She currently coordinates business development at a clean tech, carbon utilization company called Carbon Upcycling

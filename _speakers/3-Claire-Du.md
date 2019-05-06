@@ -4,7 +4,7 @@ subtitle: Technology/Communication
 order: 3
 modal-id: claire-du
 thumbnail: Claire-Du-thumbnail.jpg
-img: 
+img: Claire-Du-modal.jpg
 description: >-
   Passionate about technology since she was young, Claire founded AI4Youth Canada at the age of 15. AI4Youth Canada is a
   federally incorporated non-profit organization, which focuses on connecting high school students across Canada with

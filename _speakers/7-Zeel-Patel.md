@@ -4,7 +4,7 @@ subtitle: Business
 order: 7
 modal-id: zeel-patel
 thumbnail: Zeel-Patel-thumbnail.jpg
-img: 
+img: Zeel-Patel-modal.jpg
 description: >-
   An energetic technological thinker and systems designer, Zeel Patel is an undergraduate at Harvard fascinated of the
   intersection between neuroscience and computer science, and the applications of human-computer interaction. Zeel is an

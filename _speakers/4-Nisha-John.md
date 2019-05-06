@@ -4,7 +4,7 @@ subtitle: Social Activism
 order: 4
 modal-id: nisha-john
 thumbnail: Nisha-John-thumbnail.jpg
-img: 
+img: Nisha-John-modal.jpg
 description: >-
   Nisha John completed a Bachelor of Science in Biological Sciences with a minor in Social and Cultural Anthropology at
   the University of Calgary in April 2019. Nisha combines her passion of people-centred work with her interests in
