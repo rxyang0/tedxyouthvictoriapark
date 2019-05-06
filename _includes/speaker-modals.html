@@ -1,6 +1,6 @@
 <!-- Speaker modals -->
 {% for speaker in site.speakers %}
-<div class="portfolio-modal modal fade" id="speaker{{ speaker.modal-id }}" tabindex="-1" role="dialog"
+<div class="speaker-modal modal fade" id="{{ speaker.modal-id }}" tabindex="-1" role="dialog"
     aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
@@ -11,30 +11,29 @@
     </div>
     <div class="container">
       <div class="row">
+        <div class="col-lg-12">
+          <h2>{{ speaker.name }}</h2>
+          <hr class="star-primary">
+        </div>
+      </div>
+      {% if speaker.img %}
+      <div class="row vcenter">
+        <div class="col-lg-3">
+          <img data-src="/images/speakers/{{ speaker.img }}" class="img-responsive img-circle lazyload"
+              alt="{{ speaker.name }}'s image">
+        </div>
+        <div class="col-lg-8">
+      {% else %}
+      <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
+      {% endif %}
           <div class="modal-body">
-            <h2>{{ speaker.title }}</h2>
-            <hr class="star-primary">
-            <img data-src="images/portfolio/{{ speaker.img }}" class="img-responsive img-centered lazyload" alt="{{ speaker.alt }}">
             <p>{{ speaker.description }}</p>
-            <ul class="list-inline item-details">
-              <li>Additional detail:
-                <strong><a href="">{{ speaker.client }}</a>
-                </strong>
-              </li>
-              <li>Additional detail:
-                <strong><a href="">{{ speaker.project-date }}</a>
-                </strong>
-              </li>
-              <li>Additional detail:
-                <strong><a href="">{{ speaker.category }}</a>
-                </strong>
-              </li>
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
           </div>
         </div>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
       </div>
     </div>
   </div>
