@@ -22,5 +22,7 @@ social:
 host: 0.0.0.0
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-redirect-from
 compress_html:
   comments: all
