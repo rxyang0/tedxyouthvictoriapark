@@ -315,17 +315,18 @@ header .hero .intro-heading {
   font-family: $fontPrimary;
   font-weight: 700;
   margin-bottom: 10vh;
-  font-size: 6vh;
+  font-size: 3vh;
 }
 
 // For mobile
-@media(max-width:768px) {
+@media(max-width:767px) {
   header .hero .intro-img {
     max-width: 85vw;
     margin-bottom: 3vh;
   }
   
   header .hero .intro-heading {
+    font-size: 6vw;
     margin-bottom: 8vh;
   }
 }
@@ -367,6 +368,12 @@ section h3.section-subheading {
   height: 10px;
   width: 100px;
   background-color: $colorPrimary;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #about .about-org-title {
+    font-size: 16px;
+  }
 }
 
 #theme .theme-img {
