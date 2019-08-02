@@ -1,6 +1,6 @@
 ---
 name: Mohamed Abdallahi
-position: Event Manager
+position: VP of Operations
 modal-id: mohamed-abdallahi
 order: 9
 img: Mohamed-Abdallahi.jpg

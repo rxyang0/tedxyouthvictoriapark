@@ -11,11 +11,7 @@
     <div class="row">
       {% assign sorted_members = site.team | sort:"order" %}
       {% for member in sorted_members %}
-      {% if member.name == "Richard Yang" %}
-      <div class="col-md-12">
-      {% else %}
-        <div class="col-sm-4">
-      {% endif %}
+      <div class="col-sm-4">
           <div class="team-member">
             <a href="#{{ member.modal-id }}" class="team-member-link" data-toggle="modal">
               <div class="team-member-hover img-circle{% if member.img %}{% else %} img-missing{% endif %}">
