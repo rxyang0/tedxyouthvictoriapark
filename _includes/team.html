@@ -2,7 +2,7 @@
   <div class="container">
     <h1 class="text-center section-heading">Team</h1>
     <hr class="section-heading-divider">
-    <div class="row">
+    <div class="row justify-content-center">
       {% assign sorted_members = site.team | sort:"order" %}
       {% for member in sorted_members %}
       <div class="col-sm-6 col-md-4 text-center member-box">
