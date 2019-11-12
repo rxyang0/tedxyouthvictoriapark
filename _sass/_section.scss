@@ -23,6 +23,10 @@ section hr.section-heading-divider {
   border-top: 1px solid $colorHr;
 }
 
+.modal {
+  overflow-y: auto !important;
+}
+
 .modal-img {
   position: relative;
 }
