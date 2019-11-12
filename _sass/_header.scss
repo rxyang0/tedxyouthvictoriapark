@@ -30,7 +30,7 @@ header .hero .intro-img {
 
 header .hero .intro-heading {
   text-transform: none;
-  font-size: 16px;
+  font-size: 19px;
 }
 
 @media (min-width: 576px) {
@@ -38,7 +38,7 @@ header .hero .intro-heading {
     max-width: 75%;
   }
   header .hero .intro-heading {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 @media (min-width: 768px) {
@@ -46,7 +46,7 @@ header .hero .intro-heading {
     max-width: 60%;
   }
   header .hero .intro-heading {
-    font-size: 22px;
+    font-size: 36px;
   }
 }
 @media (min-width: 992px) {
@@ -54,7 +54,7 @@ header .hero .intro-heading {
     max-width: 50%;
   }
   header .hero .intro-heading {
-    font-size: 24px;
+    font-size: 36px;
   }
 }
 @media (min-width: 1200px) {
@@ -62,7 +62,7 @@ header .hero .intro-heading {
     max-width: 50%;
   }
   header .hero .intro-heading {
-    font-size: 28px;
+    font-size: 36px;
   }
 }
 
