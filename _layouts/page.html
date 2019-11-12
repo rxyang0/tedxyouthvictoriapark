@@ -4,10 +4,10 @@ layout: compress
 <!doctype html>
 <html prefix="og: http://ogp.me/ns#">
   {% include head.html %}
-  <body id="page-top" class="index">
+  <body id="page-top" data-spy="scroll" data-target="#navcol" data-offset="7">
   {% include navbar.html %}
   {{ content }}
-  {% include js.html %}
   {% include footer.html %}
+  {% include js.html %}
   </body>
 </html>

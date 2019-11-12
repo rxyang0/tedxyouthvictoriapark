@@ -1,0 +1,32 @@
+footer {
+  margin: 10px 0px;
+}
+
+footer .copyright {
+  margin: 5px 0px;
+  font-family: $fontPrimary;
+  font-size: 13.5px;
+}
+
+footer .social-buttons {
+  margin: 5px 0px;
+  font-size: 20px;
+}
+
+footer .social-buttons a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  color: #fff;
+  background-color: $colorBgDark;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+}
+
+footer .social-buttons a:hover,
+footer .social-buttons a:focus {
+  background-color: $colorPrimary;
+}

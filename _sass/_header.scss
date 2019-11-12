@@ -1,0 +1,86 @@
+header {
+  color: #fff;
+  height: 100vh;
+  height: -webkit-fill-available;
+  text-align: center;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (max-width: 768px) {
+  header {
+    background-image: url("/images/header-bg-blurred-small.jpg");
+  }
+}
+@media (min-width: 768px) {
+  header {
+    background-image: url("/images/header-bg-blurred.jpg");
+  }
+}
+
+header .hero .intro-img {
+  max-width: 90%;
+  padding-bottom: 40px;
+}
+
+header .hero .intro-heading {
+  text-transform: none;
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  header .hero .intro-img {
+    max-width: 75%;
+  }
+  header .hero .intro-heading {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  header .hero .intro-img {
+    max-width: 60%;
+  }
+  header .hero .intro-heading {
+    font-size: 22px;
+  }
+}
+@media (min-width: 992px) {
+  header .hero .intro-img {
+    max-width: 50%;
+  }
+  header .hero .intro-heading {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  header .hero .intro-img {
+    max-width: 50%;
+  }
+  header .hero .intro-heading {
+    font-size: 28px;
+  }
+}
+
+header .hero-scroll {
+  position: absolute;
+  bottom: 75px;
+  left: 0;
+  right: 0;
+  font-size: 50px;
+  color: #fff;
+  animation: MoveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 60px;
+  }
+  50% {
+    bottom: 90px;
+  }
+}

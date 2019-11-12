@@ -1,10 +1,16 @@
-@import "fonts";
-@import "font-awesome";
-@import "variables";
 @import "bootstrap";
+@import "fonts";
+@import url(https://use.fontawesome.com/releases/v5.7.1/css/all.css);
+
+@import "variables";
 @import "general";
-@import "speakers";
-@import "team";
-@import "pages/landing";
-@import "pages/nominate-speaker";
-@import "icon-bar";
+@import "navbar";
+@import "header";
+@import "section";
+@import "section-about";
+@import "section-theme";
+@import "section-speakers";
+@import "section-sponsors";
+@import "section-team";
+@import "section-contact";
+@import "footer";

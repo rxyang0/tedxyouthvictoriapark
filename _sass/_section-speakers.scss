@@ -1,0 +1,27 @@
+section.speakers .speaker-box {
+  margin-top: 20px;
+}
+
+section.speakers .speaker-name {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 19px;
+  line-height: 1.25;
+}
+
+section.speakers .speaker-subtitle {
+  margin-top: 0px;
+}
+
+section.speakers .speaker-box a {
+  color: $colorSecondaryDark;
+}
+
+div.modal button.close:hover {
+  opacity: 1 !important;
+  color: $colorPrimary;
+}
+
+div.modal button.close:focus {
+  outline-color: transparent;
+}

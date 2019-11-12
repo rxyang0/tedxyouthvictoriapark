@@ -1,24 +1,33 @@
 <footer>
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
       <div class="col-md-4">
-        <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+        <p class="text-center copyright">Copyright © TEDxYouth@VictoriaPark 2019</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <ul class="list-inline social-buttons">
-          {% for network in site.social %}
-          <li><a href="{{ network.url }}" target="_blank"><i class="fab fa-{{ network.title }}"></i></a></li>
-          {% endfor %}
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/tedxyouthvictoriapark" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/tedxyouthvictoriapark" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/company/tedxyouthvictoriapark/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://github.com/premiumrich/tedxyouthvictoriapark" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
         </ul>
       </div>
-      <!-- <div class="col-md-4">
-        <ul class="list-inline quicklinks">
-          <li><a href="#">&lt;LINK&gt;</a>
-          </li>
-          <li><a href="#">&lt;ANOTHER LINK&gt;</a>
-          </li>
-        </ul>
-      </div> -->
     </div>
   </div>
 </footer>

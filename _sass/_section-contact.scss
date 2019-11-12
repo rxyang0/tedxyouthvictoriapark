@@ -1,0 +1,36 @@
+section.contact form {
+  padding-top: 30px;
+}
+
+section.contact .form-group {
+  margin-bottom: 25px;
+  padding: 0px 15px;
+}
+
+section.contact .form-group input,
+section.contact .form-group textarea {
+  padding: 20px;
+}
+
+section.contact .form-group input.form-control {
+  height: 60px;
+}
+
+section.contact .form-group textarea.form-control {
+  height: 230px;
+}
+
+section.contact .form-control:focus {
+  border-color: $colorPrimary;
+  box-shadow: none;
+}
+
+section.contact .submit-button {
+  margin-bottom: 0px;
+}
+
+section.contact .submit-button button.btn-lg {
+  padding: 20px 35px;
+  font-size: 18px;
+  border: 2px solid $colorPrimary;
+}

@@ -1,0 +1,23 @@
+section.team .member-box {
+  margin-top: 20px;
+}
+
+section.team .member-box a {
+  color: $colorSecondaryDark;
+}
+
+section.team .member-box img,
+section.team .member-box .modal-overlay {
+  width: 200px;
+}
+
+section.team .team-name {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-size: 19px;
+  line-height: 1.25;
+}
+
+section.team .team-subtitle {
+  margin-top: 0px;
+}

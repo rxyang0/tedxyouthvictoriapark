@@ -1,52 +1,28 @@
-<!-- Team section -->
-<section id="team">
+<section class="team"><a id="team" class="anchor"></a>
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Our Team</h2>
-        <!-- <h3 class="section-subheading text-muted"></h3> -->
-        <hr class="star-primary" style="margin-bottom: 60px;">
-      </div>
-    </div>
+    <h1 class="text-center section-heading">Team</h1>
+    <hr class="section-heading-divider">
     <div class="row">
       {% assign sorted_members = site.team | sort:"order" %}
       {% for member in sorted_members %}
-      <div class="col-sm-4">
-          <div class="team-member">
-            <a href="#{{ member.modal-id }}" class="team-member-link" data-toggle="modal">
-              <div class="team-member-hover img-circle{% if member.img %}{% else %} img-missing{% endif %}">
-                <div class="team-member-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              {% if member.img %}
-              <img data-src="images/team/{{ member.img }}" class="img-responsive img-circle lazyload" alt="{{ member.name }}'s image">
-              {% else %}
-              <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" class="img-responsive img-circle"
-                  alt="">
-              {% endif %}
-            </a>
-            <h4 data-toggle="tooltip" data-placement="top" title="Click to read more!">
-              <u><a href="#{{ member.modal-id }}" data-toggle="modal">{{ member.name }}</a></u>
-            </h4>
-            <p class="text-muted">{{ member.position }}</p>
-            <ul class="list-inline social-buttons">
-              <!-- {% for network in member.social %}
-                <li>
-                  <a href="{{ network.url }}">
-                      <i class="fa fa-{{ network.title }}"></i>
-                  </a>
-                </li>
-              {% endfor %} -->
-            </ul>
+      <div class="col-sm-6 col-md-4 text-center member-box">
+        <a href="#{{ member.modal-id }}" data-toggle="modal">
+          <div class="modal-img">
+            <img class="rounded-circle img-fluid lazyload"
+                data-src="{% if member.img %}/images/team/{{ member.img }}
+                          {% else %}data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs={% endif %}">
+            <div class="modal-overlay rounded-circle"><i class="fa fa-plus fa-3x text-white"></i></div>
           </div>
-        </div>
+        </a>
+        <a href="#{{ member.modal-id }}" data-toggle="modal">
+          <p class="team-name text-center">
+            <strong><span style="text-decoration: underline;">{{ member.name }}</span></strong>
+            <br>
+          </p>
+        </a>
+        <p class="team-subtitle text-center text-muted">{{ member.position }}<br></p>
+      </div>
       {% endfor %}
     </div>
-    <!-- <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-          <p class="large text-muted"></p>
-      </div>
-    </div> -->
   </div>
 </section>

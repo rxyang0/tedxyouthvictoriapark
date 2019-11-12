@@ -10,14 +10,6 @@ collections:
   - speakers
   - team
 
-social:
-  - title: facebook-f
-    url: https://www.facebook.com/tedxyouthvictoriapark
-  - title: instagram
-    url: https://www.instagram.com/tedxyouthvictoriapark
-  - title: linkedin-in
-    url: https://www.linkedin.com/company/tedxyouthvictoriapark/
-
 # Build settings
 host: 0.0.0.0
 markdown: kramdown

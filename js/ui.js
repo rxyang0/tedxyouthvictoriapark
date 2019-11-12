@@ -161,77 +161,40 @@
 
 // For homepage
 if (window.location.pathname == "/") {
-  // // Countdown timer
-  // var countDownDate = new Date("May 25, 2019 10:00:00").getTime();
-  // (function updateCountdown() {
-  //   var now = new Date().getTime();
-  //   // Find the distance between now and the countdown date
-  //   var distance = countDownDate - now;
-  //   // Time calculations
-  //   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  //   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  //   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  //   // Display
-  //   document.getElementById("countdownD").innerHTML = days;
-  //   document.getElementById("countdownH").innerHTML = hours;
-  //   document.getElementById("countdownM").innerHTML = minutes;
-  //   // If the count down is finished, write some text
-  //   if (distance < 0) {
-  //     document.getElementById("countdownD").innerHTML = 0;
-  //     document.getElementById("countdownH").innerHTML = 0;
-  //     document.getElementById("countdownM").innerHTML = 0;
-  //   }
-  //   setTimeout(updateCountdown, 60000);
-  // })();
-
-  // Shrink navbar on scroll
-  $(window).scroll(function () {
+  // Expand or shrink navbar
+  $(window).on("load scroll", function () {
     if ($(document).scrollTop() > 50) {
-      $('nav').addClass('navbar-shrink');
+      $("nav").removeClass("navbar-extend");
+      $("nav").addClass("navbar-shrink");
     } else {
-      $('nav').removeClass('navbar-shrink');
+      $("nav").removeClass("navbar-shrink");
+      $("nav").addClass("navbar-extend");
     }
   });
-} else if (window.location.pathname != "/") $('nav').addClass('navbar-shrink');
 
-$(document).ready(function () {
-  $('[data-toggle="tooltip"]').tooltip();
+  $(window).resize(function() {
+    if ($(window).width() >= 992) {
+      $("header").css("height", "100vh");
+    }
+  });
+}
+
+$(function() {
+  $("[data-toggle='tooltip']").tooltip()
 });
 
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function () {
-  $('a.page-scroll').on('click', function (event) {
+// Navbar page scroll
+$(function() {
+  $("a.page-scroll").on("click", function (event) {
     var $anchor = $(this);
-    $('html, body').on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function () {
-      $('html, body').stop();
+    $("html, body").on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function() {
+      $("html, body").stop();
     });
-    $('html, body').stop().animate({
-      scrollTop: $($anchor.attr('href')).offset().top - 60
-    }, 600, 'easeInOutCubic');
+    $("html, body").stop().animate({
+      scrollTop: $($anchor.attr("href")).offset().top
+    }, 300);
     event.preventDefault();
   });
-});
-
-// Highlight the top nav as scrolling occurs
-$('body').scrollspy({
-  target: '.navbar-fixed-top',
-  offset: 76
-});
-
-// Close the responsive menu on menu item click
-$('.navbar-collapse ul li a').on("click", function () {
-  $('.navbar-toggle:visible').trigger("click");
-});
-
-$('div.modal').on('show.bs.modal', function () {
-  var modal = this;
-  var hash = modal.id;
-  window.location.hash = hash;
-  window.onhashchange = function () {
-    if (!location.hash) {
-      $(modal).modal('hide');
-    }
-  }
 });
 
 // Warn user before leaving with changes

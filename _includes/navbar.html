@@ -1,42 +1,21 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
   <div class="container">
-    <!-- Group brand and toggle for mobile display -->
-    <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand page-scroll" href="{% if page.url == "/" %}#page-top{% else %}/{% endif %}">
-        <img class="logo-img" src="/images/logos/TEDxYouth@VictoriaPark-logo-navbar.png" alt="Logo">
-      </a>
-    </div>
-
-    <!-- Collect nav links for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-          <a href="{% if page.url == "/" %}#page-top{% else %}/{% endif %}"></a>
-        </li>
-        <li>
-          <a class="page-scroll" href="{% if page.url == "/" %}#about{% else %}/#about{% endif %}">About</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="{% if page.url == "/" %}#speakers{% else %}/#speakers{% endif %}">Speakers</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="{% if page.url == "/" %}#sponsors{% else %}/#sponsors{% endif %}">Sponsors</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="{% if page.url == "/" %}#team{% else %}/#team{% endif %}">Team</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="{% if page.url == "/" %}#contact{% else %}/#contact{% endif %}">Contact</a>
-        </li>
-        <li>
-          <a class="btn btn-xl" href="https://www.eventbrite.ca/e/tedxyouthvictoriapark-tickets-58414500343"
-              target="_blank">Buy Tickets</a>
+    <a class="navbar-brand text-left page-scroll" href="#page-top">
+      <img src="/images/logos/TEDxYouth@VictoriaPark-logo-navbar.png">
+    </a>
+    <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navcol">
+      <ul class="nav navbar-nav d-xl-flex ml-auto align-items-xl-center">
+        <li class="nav-item" role="presentation"><a class="nav-link page-scroll" href="#about">About</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link page-scroll" href="#speakers">Speakers</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link page-scroll" href="#sponsors">Sponsors</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link page-scroll" href="#team">Team</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link page-scroll" href="#contact">Contact</a></li>
+        <li class="nav-item" role="presentation"><a class="btn btn-primary btn-lg nav-link" role="button"
+            href="https://www.eventbrite.ca/e/tedxyouthvictoriapark-tickets-58414500343" target="_blank">Buy Tickets</a>
         </li>
       </ul>
     </div>

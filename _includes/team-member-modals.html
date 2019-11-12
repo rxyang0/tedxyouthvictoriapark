@@ -1,51 +1,24 @@
-<!-- Team member modals -->
 {% for member in site.team %}
-<div class="speaker-modal modal fade" id="{{ member.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
+<div class="modal fade" id="{{ member.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header align-items-center">
+        <h2 class="modal-title flex-fill text-center">{{ member.name }}</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2>{{ member.name }}</h2>
-          <hr class="star-primary">
-        </div>
-      </div>
-      {% if member.img %}
-      <div class="row vcenter">
-        <div class="col-lg-3">
-          <img data-src="images/team/{{ member.img }}" class="img-responsive img-circle lazyload" alt="{{ member.name }}'s image">
-        </div>
-        <div class="col-lg-8">
-      {% else %}
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-      {% endif %}
-          <div class="modal-body">
-            <p>{{ member.description }}</p>
-            <!-- <ul class="list-inline item-details">
-              <li>Additional detail:
-                  <strong><a href="">{{ member.client }}</a>
-                  </strong>
-              </li>
-              <li>Additional detail:
-                  <strong><a href="">{{ member.project-date }}</a>
-                  </strong>
-              </li>
-              <li>Additional detail:
-                  <strong><a href="">{{ member.category }}</a>
-                  </strong>
-              </li>
-            </ul> -->
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3">
+              <img data-src="/images/team/{{ member.img }}" class="img-thumbnail img-fluid lazyload">
+            </div>
+            <div class="col-md-9">
+              <p>{{ member.description }}</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
       </div>
     </div>
   </div>
