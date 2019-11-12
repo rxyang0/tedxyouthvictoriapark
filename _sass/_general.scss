@@ -5,7 +5,7 @@ body {
 }
 
 *:focus {
-  outline-color: transparent;
+  outline: none !important;
 }
 
 @media (max-width: 575px) {
