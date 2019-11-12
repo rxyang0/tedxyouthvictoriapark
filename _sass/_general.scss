@@ -4,6 +4,10 @@ body {
   color: $colorSecondaryDark;
 }
 
+*:focus {
+  outline-color: transparent;
+}
+
 @media (max-width: 575px) {
   .container {
     padding-left: 30px;
