@@ -1,6 +1,6 @@
-{% for speaker in site.speakers %}
+{% for speaker in site.speakers-2019 %}
 <div class="modal fade" id="{{ speaker.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header align-items-center">
         <h2 class="modal-title flex-fill text-center">{{ speaker.name }}</h2>
@@ -11,10 +11,10 @@
       <div class="modal-body">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-4">
               <img data-src="/images/speakers/{{ speaker.img }}" class="img-thumbnail img-fluid lazyload">
             </div>
-            <div class="col-md-9 mt-3">
+            <div class="col-md-8 mt-3">
               <p>{{ speaker.description }}</p>
             </div>
           </div>
