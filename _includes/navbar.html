@@ -1,6 +1,7 @@
 <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
   <div class="container">
-    <a class="navbar-brand text-left page-scroll" href="#page-top">
+    <a class="navbar-brand text-left page-scroll"
+        href="{% if page.url == '/' %}#page-top{% else %}/{% endif %}">
       <img src="/images/logos/TEDxYouth@VictoriaPark-logo-navbar.png">
     </a>
     <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol">
@@ -9,12 +10,28 @@
     </button>
     <div class="collapse navbar-collapse text-center" id="navcol">
       <ul class="nav navbar-nav d-xl-flex ml-auto align-items-xl-center">
-        <li class="nav-item" role="presentation"><a class="nav-link page-scroll" href="#about">About</a></li>
-        <li class="nav-item" role="presentation"><a class="nav-link page-scroll" href="#speakers">Speakers</a></li>
-        <li class="nav-item" role="presentation"><a class="nav-link page-scroll" href="#sponsors">Sponsors</a></li>
-        <li class="nav-item" role="presentation"><a class="nav-link page-scroll" href="#team">Team</a></li>
-        <li class="nav-item" role="presentation"><a class="nav-link page-scroll" href="#contact">Contact</a></li>
-        <li class="nav-item" role="presentation"><a class="btn btn-primary btn-lg nav-link" role="button"
+        <li class="nav-item" role="presentation">
+          <a class="nav-link page-scroll"
+              href="{% if page.url == '/' %}#about{% else %}/#about{% endif %}">About</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link page-scroll"
+              href="{% if page.url == '/' %}#speakers{% else %}/#speakers{% endif %}">Speakers</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link page-scroll"
+              href="{% if page.url == '/' %}#sponsors{% else %}/#sponsors{% endif %}">Sponsors</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link page-scroll"
+              href="{% if page.url == '/' %}#team{% else %}/#team{% endif %}">Team</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link page-scroll"
+              href="{% if page.url == '/' %}#contact{% else %}/#contact{% endif %}">Contact</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="btn btn-primary btn-lg nav-link" role="button"
             href="https://www.eventbrite.ca/e/tedxyouthvictoriapark-tickets-58414500343" target="_blank">Buy Tickets</a>
         </li>
       </ul>
