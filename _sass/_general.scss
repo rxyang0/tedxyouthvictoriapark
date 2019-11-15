@@ -95,3 +95,17 @@ a:hover, a:focus, a:active {
 .tooltip-inner {
   font-family: $fontSecondary;
 }
+
+.btn-lg {
+  padding: 15px 35px;
+  font-size: 18px;
+  border: 2px solid $colorPrimary;
+}
+
+.btn-lg:hover {
+  border-color: $colorPrimary;
+}
+
+.btn-over-white:hover {
+  color: $colorSecondaryDark !important;
+}
