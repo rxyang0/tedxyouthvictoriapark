@@ -24,13 +24,13 @@ header {
 }
 
 header .hero .intro-img {
-  max-width: 90%;
+  max-width: 80%;
   padding-bottom: 40px;
 }
 
 header .hero .intro-heading {
   text-transform: none;
-  font-size: 19px;
+  font-size: 20px;
 }
 
 header .hero .intro-button {
@@ -39,7 +39,7 @@ header .hero .intro-button {
 
 @media (min-width: 576px) {
   header .hero .intro-img {
-    max-width: 75%;
+    max-width: 60%;
   }
   header .hero .intro-heading {
     font-size: 30px;
@@ -47,44 +47,44 @@ header .hero .intro-button {
 }
 @media (min-width: 768px) {
   header .hero .intro-img {
-    max-width: 60%;
+    max-width: 50%;
   }
   header .hero .intro-heading {
-    font-size: 36px;
+    font-size: 34px;
   }
 }
 @media (min-width: 992px) {
   header .hero .intro-img {
-    max-width: 50%;
+    max-width: 40%;
   }
   header .hero .intro-heading {
-    font-size: 36px;
+    font-size: 32px;
   }
 }
 @media (min-width: 1200px) {
   header .hero .intro-img {
-    max-width: 50%;
+    max-width: 30%;
   }
   header .hero .intro-heading {
-    font-size: 36px;
+    font-size: 32px;
   }
 }
 
 header .hero-scroll {
   position: absolute;
-  bottom: 75px;
+  bottom: 50px;
   left: 0;
   right: 0;
-  font-size: 50px;
+  font-size: 45px;
   color: #fff;
   animation: MoveUpDown 2s ease-in-out infinite;
 }
 
 @keyframes MoveUpDown {
   0%, 100% {
-    bottom: 60px;
+    bottom: 30px;
   }
   50% {
-    bottom: 90px;
+    bottom: 60px;
   }
 }
