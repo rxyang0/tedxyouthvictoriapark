@@ -1,12 +1,31 @@
 <section class="speakers"><a id="speakers" class="anchor"></a>
   <div class="container">
     <h1 class="text-center section-heading">Speakers</h1>
+    <p class="text-center"><strong>TEDxYouth@VictoriaPark 2020</strong></p>
     <hr class="section-heading-divider">
-    <p class="text-center pb-4">
-      <strong>The speakers of TEDxYouth@VictoriaPark 2020 will be announced soon.</strong>
-    </p>
-    <p class="text-center text-muted">
-      <a href="#speakers-2019" data-toggle="modal">Click here to view the speakers of TEDxYouth@VictoriaPark 2019</a>
+    <div class="row justify-content-center pb-3">
+      {% assign sorted_speakers = site.speakers-2020 | sort:"order" %}
+      {% for speaker in sorted_speakers %}
+      <div class="col-sm-6 col-md-4 text-center speaker-box">
+        <a href="#{{ speaker.modal-id }}" data-toggle="modal">
+          <div class="modal-img">
+            <img class="img-thumbnail img-fluid lazyload" data-src="/images/speakers-2020/{{ speaker.thumbnail }}">
+            <div class="modal-overlay img-thumbnail"><i class="fa fa-plus fa-3x text-white"></i></div>
+          </div>
+        </a>
+        <a href="#{{ speaker.modal-id }}" data-toggle="modal">
+          <p class="speaker-name text-center" data-toggle="tooltip" data-placement="top" title="Click to read more!">
+            <strong><span style="text-decoration: underline;">{{ speaker.name }}</span></strong>
+          </p>
+        </a>
+        <p class="speaker-subtitle text-center text-muted">{{ speaker.subtitle }}<br></p>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="text-center text-muted mb-0">
+      <a href="#speakers-2019" data-toggle="modal">
+        View the speakers of TEDxYouth@VictoriaPark 2019
+      </a>
     </p>
   </div>
 
@@ -27,7 +46,7 @@
               <div class="col-sm-6 col-md-4 text-center speaker-box">
                 <a href="#{{ speaker.modal-id }}" data-toggle="modal">
                   <div class="modal-img">
-                    <img class="img-thumbnail img-fluid lazyload" data-src="/images/speakers/{{ speaker.thumbnail }}">
+                    <img class="img-thumbnail img-fluid lazyload" data-src="/images/speakers-2019/{{ speaker.thumbnail }}">
                     <div class="modal-overlay img-thumbnail"><i class="fa fa-plus fa-3x text-white"></i></div>
                   </div>
                 </a>
