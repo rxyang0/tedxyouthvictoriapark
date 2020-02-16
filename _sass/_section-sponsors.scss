@@ -16,3 +16,11 @@ section.sponsors img.partner-logo {
   max-height: 80px;
   margin-bottom: 40px;
 }
+
+section.sponsors img.partner-recurring {
+  position: absolute;
+  width: 30px;
+  transform: rotate(20deg);
+  padding-left: 10px;
+  z-index: 1;
+}
