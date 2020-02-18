@@ -1,7 +1,7 @@
 ---
 name: Richard Lee-Thai
 subtitle: 
-order: 1
+order: 2
 modal-id: richard-lee-thai
 thumbnail: Richard-Lee-Thai-thumbnail.jpg
 img: Richard-Lee-Thai-modal.jpg
