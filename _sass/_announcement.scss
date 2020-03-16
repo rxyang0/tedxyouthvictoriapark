@@ -1,0 +1,9 @@
+div.announcement button.close {
+  text-shadow: none;
+  opacity: 1 !important;
+}
+
+div.announcement button.close:hover,
+div.announcement button.close:focus {
+  color: $colorPrimary;
+}
