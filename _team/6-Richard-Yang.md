@@ -2,7 +2,7 @@
 name: Richard Yang
 position: Web Developer
 modal-id: richard-yang
-order: 10
+order: 6
 img: Richard-Yang.jpg
 description: 
 ---
