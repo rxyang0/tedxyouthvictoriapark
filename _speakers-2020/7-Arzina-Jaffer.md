@@ -6,7 +6,7 @@ modal-id: arzina-jaffer
 thumbnail: Arzina-Jaffer-thumbnail.jpg
 img: Arzina-Jaffer-modal.jpg
 description: >-
-  Arzina is a second-year undergraduate student at the University of Calgary pursuing a Bachelor of Health Sciences
+  Arzina is a third year undergraduate student at the University of Calgary pursuing a Bachelor of Health Sciences
   degree majoring in Biomedical Sciences. Arzina is a strong advocate for equality and promoting the value of service to
   others within her local community. She also dedicates a large portion of her time engaging in biomedical research
   where she is currently implementing bioinformatic techniques and using sequencing technologies to understand the
