@@ -13,13 +13,19 @@ header {
 
 @media (max-width: 768px) {
   header {
-    background-image: url("/images/header-bg-blurred-small.jpg");
+    background-image: url('/images/header-bg-blurred-small.jpg');
   }
 }
 @media (min-width: 768px) {
   header {
-    background-image: url("/images/header-bg-blurred.jpg");
+    background-image: url('/images/header-bg-blurred.jpg');
   }
+}
+
+header .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header .hero .intro-img {
@@ -32,8 +38,9 @@ header .hero .intro-heading {
   font-size: 19px;
 }
 
-header .hero .intro-button {
-  font-size: 16px;
+header .hero .schedule-download {
+  font-size: 18px;
+  color: #fff;
 }
 
 @media (min-width: 576px) {
@@ -80,7 +87,8 @@ header .hero-scroll {
 }
 
 @keyframes MoveUpDown {
-  0%, 100% {
+  0%,
+  100% {
     bottom: 30px;
   }
   50% {
